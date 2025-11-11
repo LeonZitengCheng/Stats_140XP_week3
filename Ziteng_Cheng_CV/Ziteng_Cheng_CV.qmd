@@ -2,50 +2,81 @@
 title: CV
 format:
   quarto-cv-pdf: default
-author: William Gosset
+author: Ziteng Cheng
 date: last-modified
-phone: 123-456-7890
-address: "Guinness Brewery · Park Royal · London NW10 7RR, UK"
-email: guinness@consumer-care.net
+# phone: 123-456-7890
+
+address: "Los Angeles, CA"
+email: zitengcheng3@gmail.com
 fontsize: 11pt
 
 github: LeonZitengCheng
-orcid: 0000-0002-1825-0097 # orcid identifier
+# orcid: 0000-0002-1825-0097 # orcid identifier
 #osf: ymqui # osf five character id
 #twitter: twitter # twitter handle
-# web: quarto.org
+web: quarto.org
 fontawesome: yes
 nocite: '@*'
-bibliography: 
-  peer: peer_bib.bib
-  other: other_bib.bib
+# bibliography: 
+#   peer: peer_bib.bib
+#   other: other_bib.bib
 validate-yaml: false
 csl: apa-cv.csl
 ---
 
-# Employment
-
-*Arthur Guinness & Son*
-
-Chief Brewer (Park Royal) \hfill 1935-1937
-
-Researcher (Dublin) \hfill 1899-1935
-
 # Education
 
-*New College, Oxford University*, B.A. Chemistry \hfill 1899
+<!-- Riveriside City College  \hfill 2022 \- 2024 -->
 
-# Publications
+University of California, Los Angeles, B.S. Statistics and Data Science \hfill Class of 2026
 
-::: {#refs-peer}
-:::
+# Employment
 
-# Technical Reports
+**Math Tutor**    \hfill Fed 2024 \- Jun 2024
 
-::: {#refs-other}
-:::
+- Delivered over 40 personalized tutoring sessions, analyzing students’ performance data to identify knowledge gaps and adjust lesson plans. 
+
+- Designed tailored study plans and practice sets, leading to an average 15% improvement in exam scores among students over a 16-week period.
 
 
-# References
+**Operation data Analyst** \hfill Jun 2024 \- Sep 2024
 
-Available upon request, though likely would include Karl Pearson and Ronald A. Fisher.
+- Designed and implemented SQL queries to track daily KPIs (on-time rate, average delivery time, cost per shipment), enabling data-driven decision-making for a 3-person dispatch team. 
+
+- Developed a predictive scheduling model based on historical demand data, reducing average delivery delays by 23.1% and improving resource allocation efficiency
+
+**Data Analysis Intern** \hfill Jun 2025 \- Aug 2025
+
+- Built and automated Tableau dashboards and client-facing reports that visualized real-time occupancy data from 100+ IoT sensors, enhancing operational visibility and decision-making efficiency by 30%.
+
+-	Developed and maintained end-to-end data pipelines transforming 1M+ raw IoT data points daily into cleaned, aggregated datasets used for executive dashboards
+
+
+
+# Project
+
+Federated Lasso Regression with Coordinate Descent \hfill Spring 2025
+
+- Implemented from scratch a coordinate descent algorithm for Lasso regression in R, including custom soft-thresholding and convergence criteria.
+- Tuned the regularization parameter λ via validation loss across three independent datasets (600 predictors each); reported non-zero coefficient indices and test loss for each model.
+- Designed a federated learning framework where three data owners iteratively performed local Lasso updates and shared only model coefficients with a trusted aggregator, ensuring data privacy.
+
+
+Regression Modeling of Amazon Order Totals  \hfill Summer 2025
+
+-	Built supervised learning models to predict log-total Amazon order amounts using a dataset of ~5,000 customers across states and months
+- Produced a fully reproducible R pipeline with annotated scripts and a technical report detailing diagnostics, limitations, and potential improvements
+
+
+<!-- # Publications -->
+
+<!-- ::: {#refs-peer} -->
+<!-- ::: -->
+
+<!-- # Technical Reports -->
+
+<!-- ::: {#refs-other} -->
+<!-- ::: -->
+
+
+
